@@ -1,0 +1,12 @@
+1. What is IIFE?
+  
+   -> IIFE(Immediately Invoked Function Expression) is a function expression that automatically invokes after completion 
+     of the definition.The parenthesis () plays important role in IIFE pattern. In JavaScript, parenthesis cannot
+      contain statements;it can only contain an expression. 
+      
+     Example-> (function() {
+                      var counter = 0;
+                      function add(a, b) {
+                                    return a + b;
+                     console.log(add(10,20)); // 30
+                           }());
