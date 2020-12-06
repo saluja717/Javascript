@@ -1,0 +1,11 @@
+1. What is Anonymous Function?
+  -> An anonymous function is a function without a name. 
+     An anonymous function is often not accessible after its initial creation.
+  
+   Example -   let show = function()
+                          { 
+                             console.log('Anonymous Function');
+                          }
+                       show();
+              
+                 -> Output - THIS FUNCTION PRINT ANONYMOUS FUNCTION IN CONSOLE.
