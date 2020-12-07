@@ -1,0 +1,21 @@
+1. What is Arrow Function?
+   
+     -> Arrow functions were introduced in ES6.
+        Arrow functions allow us to write shorter function syntax:
+                                   BEFORE:
+                                   hello = function() {
+                                               return "Hello World!";
+                                                      }
+                                   Arrow Function:
+                                   hello = () => {   
+                                               return "Hello World!";
+                                                       }
+              It gets shorter! If the function has only one statement, and 
+              the statement returns a value, you can remove the brackets and the return keyword:
+  
+              hello = () => "Hello World!";
+                    
+                     hello();
+                  
+                 OUTPUT-> Hello World!
+                      
