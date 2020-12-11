@@ -1,0 +1,25 @@
+FOR LOOP IN JAVASCRIPT
+->
+     for - loops through a block of code a number of times
+     The for loop has the following syntax:
+
+      for (statement 1; statement 2; statement 3) {
+       // code block to be executed
+                         }
+         Statement 1 is executed (one time) before the execution of the code block.
+
+         Statement 2 defines the condition for executing the code block.
+
+         Statement 3 is executed (every time) after the code block has been executed.
+
+Example
+for (i = 0; i < 5; i++) {
+  text += "The number is " + i + "<br>";
+}
+    From the example above, you can read:
+
+Statement 1 sets a variable before the loop starts (var i = 0).
+
+Statement 2 defines the condition for the loop to run (i must be less than 5).
+
+Statement 3 increases a value (i++) each time the code block in the loop has been executed.
