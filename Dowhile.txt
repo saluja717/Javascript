@@ -1,0 +1,24 @@
+->The do...while Loop
+
+   The do-while loop is a variant of the while loop, 
+   which evaluates the condition at the end of each loop iteration. 
+   With a do-while loop the block of code executed once, and then the condition is evaluated,
+  if the condition is true, the statement is repeated as long as the specified condition evaluated to is true.  
+   The generic syntax of the do-while loop is:
+
+   do {
+    // Code to be executed
+    }
+     while(condition);
+     The JavaScript code in the following example defines a loop that starts with i=1.
+     It will then print the output and increase the value of variable i by 1.
+     After that the condition is evaluated, and the loop will continue to run as long as the variable i is less than,
+     or equal to 5.
+
+   ExampleTry this code »
+    var i = 1;
+   do {
+    document.write("<p>The number is " + i + "</p>");
+    i++;
+     }
+      while(i <= 5);
