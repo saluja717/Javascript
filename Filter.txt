@@ -1,0 +1,31 @@
+Filter in javascript
+
+Definition and Usage
+The filter() method creates an array filled with all array elements that pass a test (provided as a function).
+
+Note: filter() does not execute the function for array elements without values.
+
+Note: filter() does not change the original array.
+
+Syntax
+array.filter(function(currentValue, index, arr), thisValue)
+
+Example
+Return an array of all the values in the ages array that are a specific number or over:
+
+<p>Minimum age: <input type="number" id="ageToCheck" value="18"></p>
+<button onclick="myFunction()">Try it</button>
+
+<p>All ages above minimum: <span id="demo"></span></p>
+
+<script>
+var ages = [32, 33, 12, 40];
+
+function checkAdult(age) {
+  return age >= document.getElementById("ageToCheck").value;
+}
+
+function myFunction() {
+  document.getElementById("demo").innerHTML = ages.filter(checkAdult);
+}
+</script>
