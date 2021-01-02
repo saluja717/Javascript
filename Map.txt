@@ -1,0 +1,25 @@
+MAP
+
+Definition and Usage
+The map() method creates a new array with the results of calling a function for every array element.
+
+The map() method calls the provided function once for each element in an array, in order.
+
+Note: map() does not execute the function for array elements without values.
+
+Note: this method does not change the original array.
+
+Syntax
+array.map(function(currentValue, index, arr), thisValue)
+
+Example
+Multiply all the values in array with 10:
+
+var numbers = [65, 44, 12, 4];
+var newarray = numbers.map(myFunction)
+
+function myFunction(num) {
+  return num * 10;
+}
+
+document.getElementById("demo").innerHTML = newarray;
