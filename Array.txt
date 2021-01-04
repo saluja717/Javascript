@@ -1,0 +1,61 @@
+JavaScript Arrays
+JavaScript arrays are used to store multiple values in a single variable.
+
+Example
+var cars = ["Saab", "Volvo", "BMW"];
+What is an Array?
+An array is a special variable, which can hold more than one value at a time.
+
+If you have a list of items (a list of car names, for example), storing the cars in single variables could look like this:
+
+var car1 = "Saab";
+var car2 = "Volvo";
+var car3 = "BMW";
+However, what if you want to loop through the cars and find a specific one? And what if you had not 3 cars, but 300?
+
+The solution is an array!
+
+An array can hold many values under a single name, and you can access the values by referring to an index number.
+
+Creating an Array
+Using an array literal is the easiest way to create a JavaScript Array.
+
+Syntax:
+
+var array_name = [item1, item2, ...];      
+Example
+var cars = ["Saab", "Volvo", "BMW"];
+Spaces and line breaks are not important. A declaration can span multiple lines:
+
+Example
+var cars = [
+  "Saab",
+  "Volvo",
+  "BMW"
+];
+Using the JavaScript Keyword new
+The following example also creates an Array, and assigns values to it:
+
+Example
+var cars = new Array("Saab", "Volvo", "BMW");
+
+Access the Elements of an Array
+You access an array element by referring to the index number.
+
+This statement accesses the value of the first element in cars:
+
+var name = cars[0];
+Example
+var cars = ["Saab", "Volvo", "BMW"];
+document.getElementById("demo").innerHTML = cars[0];
+
+Changing an Array Element
+This statement changes the value of the first element in cars:
+
+cars[0] = "Opel";
+Example
+var cars = ["Saab", "Volvo", "BMW"];
+cars[0] = "Opel";
+document.getElementById("demo").innerHTML = cars[0];
+
+
